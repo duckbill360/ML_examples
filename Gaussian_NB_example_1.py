@@ -12,7 +12,6 @@ print(len(Y), 'data points')
 # classifier
 clf = GaussianNB()
 clf.fit(X, Y)
-GaussianNB(priors=None)
 
 # test data
 test_point = [[-0.8, -1]]
